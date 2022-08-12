@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  color: red;
+}
+
+.title {
+  height: 100px;
+  background-color: black;
+  text-align: center;
+}
+.title__text {
+  font-family: "Tinos", sans-serif;
+  color: rgb(173, 5, 5);
+  font-size: 75px;
+  letter-spacing: 3px;
+  word-spacing: 15px;
+  text-shadow: 2px 2px 3px rgb(64, 16, 238);
+}
+
+.content {
+  line-height: 30px;
+  color: rgb(28, 155, 87);
+  font-size: 30px;
+  padding-top: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  min-height: 100%;
+  width: 100%;
+  background-color: rgb(20, 20, 30);
+}
+
+.description {
+  margin-bottom: 30px;
+}
+.description h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.description__text {
+  padding-bottom: 20px;
+}
+
+.image {
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.download-button {
+  margin-bottom: 60px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: rgb(28, 155, 87);
+  width: 200px;
+  height: 53px;
+  box-shadow: 0px 4px black;
+}
+.button:active {
+  margin-top: 5px;
+  box-shadow: 0px 2px black;
+}
+
+.button-text {
+  line-height: 18px;
+  display: inline-block;
+  color: white;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.version {
+  font-size: 13px;
+  padding-left: 30px;
+}
+
+.download p {
+  padding-bottom: 20px;
+}
+
+.warning {
+  width: 900px;
+  padding-bottom: 20px;
+}
+
+.warning-windows {
+  width: 400px;
+  height: 450px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.telegram-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.check-list {
+  padding-left: 25px;
+}/*# sourceMappingURL=style.css.map */
